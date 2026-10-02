@@ -1,0 +1,11 @@
+node_modules/
+server/public/
+server/data/*.db
+server/data/*.db-journal
+server/data/*.db-wal
+server/data/*.db-shm
+server/data/CODIGOS.txt
+backups/
+.env
+.DS_Store
+ENDERECO-INTERNET.txt

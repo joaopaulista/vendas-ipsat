@@ -1,0 +1,51 @@
+/* ============================================================================
+   IDENTIDADE VISUAL — UMP / IPSAT
+   ----------------------------------------------------------------------------
+   Verde tirado do proprio logo da IPSAT (#4e685d, amostrado da arte enviada).
+   O preto/branco geometrico da UMP entra como tinta dos textos e dos numeros.
+
+   Para ajustar a marca, mexa so nos --brand-* e no --accent: cabecalho, abas,
+   botoes, KPIs e destaques seguem estes valores.
+   ========================================================================= */
+
+:root {
+  /* ---- Cores da marca -------------------------------------------------- */
+  --brand: #4e685d; /* verde IPSAT */
+  --brand-dark: #3c5248; /* abas e hover */
+  --brand-deep: #2c3c35; /* fundos profundos e login */
+  --brand-light: #edf2ef; /* tinta clara de destaque */
+  --brand-tint: #dde7e1; /* bordas e linhas sobre o claro */
+  --brand-contrast: #ffffff; /* texto sobre o verde */
+  --accent: #c68b3c; /* ambar quente: numeros de dinheiro e aba ativa */
+  --accent-dark: #9c6a27;
+
+  /* ---- Cores de sistema ------------------------------------------------ */
+  --bg: #f2f5f3;
+  --surface: #ffffff;
+  --surface-2: #f8faf9;
+  --border: #dde3df;
+  --border-strong: #c2ccc6;
+  --text: #16201c; /* quase o preto da UMP */
+  --text-muted: #5a6a63;
+  --text-faint: #8b9992;
+
+  --success: #2f7d4f;
+  --success-bg: #e6f3ec;
+  --partial: #b07408; /* retirada parcial */
+  --partial-bg: #fdf2dd;
+  --warning: #8a6416;
+  --warning-bg: #fbf1de;
+  --danger: #b3261e;
+  --danger-bg: #fdeceb;
+
+  /* ---- Medidas --------------------------------------------------------- */
+  --radius: 10px;
+  --radius-sm: 7px;
+  --shadow-sm: 0 1px 2px rgba(22, 32, 28, 0.07);
+  --shadow: 0 1px 2px rgba(22, 32, 28, 0.06), 0 8px 24px rgba(22, 32, 28, 0.09);
+  --font: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+
+  /* Alturas usadas pelo layout de tela cheia */
+  --topbar-h: 52px;
+  --tabs-h: 42px;
+}

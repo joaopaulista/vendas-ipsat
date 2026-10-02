@@ -1,0 +1,32 @@
+{
+  "name": "ump-vendas",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Sistema de venda de pasteis para eventos - rede local",
+  "scripts": {
+    "setup": "npm install && npm run build",
+    "build": "vite build",
+    "start": "node server/index.js",
+    "test": "node server/scripts/testes.js",
+    "dev:server": "node --watch server/index.js",
+    "dev:web": "vite",
+    "codigos": "node server/scripts/codigos.js",
+    "backup": "node server/scripts/backup.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.0.7"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "allowScripts": {
+    "esbuild": true
+  }
+}
